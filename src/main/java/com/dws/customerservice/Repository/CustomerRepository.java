@@ -1,4 +1,4 @@
-package com.dws.customerservice.Repository;
+package com.dws.customerservice.repository;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
