@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "security.jwt.token.expiracion-ms",
+    "type": "java.lang.String",
+    "description": "Establece el periodo de vigencia que tendrán los JWT generados por el servidor. La vigencia esta expresada en ms (milisegundos)"
+  },
+  {
+    "name": "security.jwt.token.clave",
+    "type": "java.lang.String",
+    "description": "Establece la clave que se empleará para firmar los Tokens generados."
+  }
+]}

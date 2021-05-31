@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.dws.customerservice.dto.Region;
-import com.dws.customerservice.repository.RegionRepository;
 import com.dws.customerservice.service.RegionService;
 
 @RestController
