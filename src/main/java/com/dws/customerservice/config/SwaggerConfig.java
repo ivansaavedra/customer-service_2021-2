@@ -16,7 +16,11 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @Configuration
 @EnableSwagger2
 public class SwaggerConfig {
+<<<<<<< HEAD
 
+=======
+	
+>>>>>>> d8727bcd0371e3952633f7234da9dccc9fcead27
 	@Bean
 	public Docket apiDocket() {
 		return new Docket(DocumentationType.SWAGGER_2)
@@ -24,6 +28,7 @@ public class SwaggerConfig {
 				.apis(RequestHandlerSelectors.basePackage("com.dws.customerservice.controller"))
 				.paths(PathSelectors.any())
 				.build()
+<<<<<<< HEAD
 				.apiInfo(getApiInfo())
 				;
 	}
@@ -41,3 +46,21 @@ public class SwaggerConfig {
 				);
 	}
 }
+=======
+				.apiInfo(getApiInfo());
+	}
+
+	private ApiInfo getApiInfo() {
+		return new ApiInfo(
+				"API WS UNAM",
+				"Ejemplo de configuracion de Documentacion con Swagger",
+				"1.0",
+				"http://localhost:8080/terminos",
+				new Contact("Ivan Saavedran", "http://localhost:8080", "ivan.saavedra@ciencias.unam.mx"),
+				"Licencia",
+				"http://localhost:8080",
+				Collections.emptyList());
+	}	
+
+}
+>>>>>>> d8727bcd0371e3952633f7234da9dccc9fcead27
